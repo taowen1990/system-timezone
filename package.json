@@ -1,0 +1,32 @@
+{
+  "name": "system-timezone",
+  "version": "0.0.3",
+  "description": "A node.js package to return this host's timezone",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/evantahler/system-timezone.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "keywords": [
+    "system",
+    "timezone",
+    "time",
+    "zone",
+    "node",
+    "clock",
+    "Olson",
+    "format"
+  ],
+  "author": "Evan Tahler",
+  "dependencies": {
+    "glob": "^5.0.14",
+    "mocha": "^2.3.2"
+  }
+}
